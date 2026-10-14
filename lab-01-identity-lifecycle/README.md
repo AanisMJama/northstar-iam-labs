@@ -17,6 +17,12 @@ HR requests access for **Maya Noor**, a fictional employee joining as a Service 
 - **Joiner:** Record HR and manager approval, create the account, and grant the approved `NS-Staff` and `NS-ServiceDesk` group access.
 - **Mover:** Record approval for the new role, remove `NS-ServiceDesk` access, and add approved `NS-IAM-Analysts` access.
 - **Leaver:** Record the effective leaving time, disable the account promptly, remove access, and retain the account record for audit according to the scenario.
+-  ##  Simulated mover approval
+
+- **Request:** Maya Noor moves from Service Desk Analyst to IAM Analyst.
+- **Approver:** Jordan Patel, fictional Service Desk Manager.
+- **Approval:** Simulated for this lab.
+- **Approved access change:** Remove `NS-ServiceDesk`; add `NS-IAM-Analysts`; keep `NS-Staff`.
 
 ## Evidence to add after performing the lab
 
