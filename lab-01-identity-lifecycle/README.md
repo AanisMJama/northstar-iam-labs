@@ -47,6 +47,20 @@ HR requests access for **Maya Noor**, a fictional employee joining as a Service 
 
 ## Safety and scope
 
+## Evidence
+
+### Joiner — group membership
+
+![Joiner group membership](joiner-group-membership.png)
+
+Shows Maya’s `Domain Users`, `NS-ServiceDesk` and `NS-Staff` memberships.
+
+### Mover — group membership
+
+![Mover group membership](mover-group-membership.png)
+
+Shows `NS-ServiceDesk` removed and `NS-IAM-Analysts` added.
+
 
 ## Results
 
