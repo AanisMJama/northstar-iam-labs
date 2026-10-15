@@ -64,4 +64,6 @@ Shows `NS-ServiceDesk` removed and `NS-IAM-Analysts` added.
 
 ## Results
 
-*Pending lab execution.*
+- **Joiner:** Completed — account and approved group memberships verified.
+- **Mover:** Completed — Service Desk access removed and IAM Analyst access added; verified.
+- **Leaver:** Pending — approval recorded; account disablement and access removal still to be performed.
