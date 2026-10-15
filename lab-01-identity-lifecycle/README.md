@@ -16,9 +16,10 @@ HR requests access for **Maya Noor**, a fictional employee joining as a Service 
 
 - **Joiner:** Record HR and manager approval, create the account, and grant the approved `NS-Staff` and `NS-ServiceDesk` group access.
 - **Mover:** Record approval for the new role, remove `NS-ServiceDesk` access, and add approved `NS-IAM-Analysts` access.
+-  **Leaver:** Record the effective leaving time, disable the account promptly, remove access, and retain the account record for audit according to the scenario.
   ## Mover completion
 
-- **Completed:** 14 October 2026 (lab simulation).
+- **Completed:** 15 October 2026 (lab simulation).
 - **Change:** Removed `NS-ServiceDesk`; added `NS-IAM-Analysts`; retained `NS-Staff` and `Domain Users`.
 - **Verification:** Member Of tab showed the expected groups and no `NS-ServiceDesk` membership.
 
@@ -29,7 +30,7 @@ HR requests access for **Maya Noor**, a fictional employee joining as a Service 
 - **Approval:** Simulated for this lab.
 - **Approved actions:** Disable the account, remove `NS-Staff` and `NS-IAM-Analysts`, move the disabled account to `Northstar/Disabled Accounts`, and retain the account object for audit.
 - **Default group:** Retain `Domain Users` while the account is disabled.
-- **Leaver:** Record the effective leaving time, disable the account promptly, remove access, and retain the account record for audit according to the scenario.
+
 ## Simulated mover approval
 
 - **Request:** Maya Noor moves from Service Desk Analyst to IAM Analyst.
