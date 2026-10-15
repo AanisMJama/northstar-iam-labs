@@ -62,8 +62,21 @@ Shows Maya’s `Domain Users`, `NS-ServiceDesk` and `NS-Staff` memberships.
 Shows `NS-ServiceDesk` removed and `NS-IAM-Analysts` added.
 
 
+
+## Leaver — account disabled and access removed
+
+![Leaver account in Disabled Accounts](leaver-disabled-account.png)
+
+Shows Maya Noor in the Northstar Disabled Accounts OU.
+
+![Leaver group membership](leaver-groups-removed.png..png)
+
+Shows only Domain Users remains; NS-Staff and NS-IAM-Analysts were removed.
+
 ## Results
 
 - **Joiner:** Completed — account and approved group memberships verified.
 - **Mover:** Completed — Service Desk access removed and IAM Analyst access added; verified.
-- **Leaver:** Pending — approval recorded; account disablement and access removal still to be performed.
+- **Leaver:** Completed — approval recorded; account disabled; NS-Staff and NS-IAM-Analysts removed; moved to Disabled Accounts; Domain Users retained.
+
+ 
