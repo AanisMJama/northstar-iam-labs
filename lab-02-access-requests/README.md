@@ -1,6 +1,6 @@
 # IAM-LAB-002 — Access Request and Least Privilege
 
-**Status:** Planned — no access changes have been made.
+**Status:** Lab execution complete — read access allowed; file creation denied.
 
 ## Objective
 
@@ -16,19 +16,24 @@ Process an access request with approval, grant only the required access through 
 - **Manager approval:** Simulated approval recorded — Hassan Ali, Finance Manager, 16 October 2026. Approved scope: read-only Finance access only.
 - **Environment:** Isolated `cyberlab.local` lab
 
-## Planned workflow
+## Workflow performed
 
-1. Record the request and fictional manager approval.
-2. Confirm the user, business need and requested access.
-3. Check or create the least-privilege security group.
-4. Add the user only after approval is recorded.
-5. Verify group membership and check that no extra access was granted.
-6. Record the action and capture evidence for the portfolio.
+1. Recorded the fictional access request and manager approval.
+2. Confirmed Samira’s identity and read-only business need.
+3. Created the `NS-Finance-ReadOnly` group and configured the Finance share permissions.
+4. Added Samira to the group after approval.
+5. Tested access from `WIN10-CLIENT01`: reading succeeded; creating a file was denied.
+6. Recorded the results for the audit trail.
 
-## Evidence
-
-Screenshots and captions will be added after the lab steps are completed.
 
 ## Results
 
-Pending lab execution.
+- Recorded simulated manager approval from Hassan Ali, Finance Manager, for read-only Finance access.
+- Added Samira Ahmed to `NS-Finance-ReadOnly`.
+- Signed in as Samira on `WIN10-CLIENT01` and opened `\\DC-01\Finance`.
+- Confirmed Samira could view `Finance-ReadOnly-Test.txt`.
+- Tried to create a text document. Windows displayed **Destination Folder Access Denied**; the folder still contained only the original file.
+
+## Evidence
+
+Portfolio screenshots will be added to this lab folder.
