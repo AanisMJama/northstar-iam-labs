@@ -13,7 +13,7 @@ Process an access request with approval, grant only the required access through 
 - **User:** Samira Ahmed, Finance Assistant
 - **Request:** Read-only access to the Finance shared resource
 - **Proposed AD group:** `NS-Finance-ReadOnly`
-- **Manager approval:** To be recorded before changing access
+- **Manager approval:** Simulated approval recorded — Hassan Ali, Finance Manager, 16 October 2026. Approved scope: read-only Finance access only.
 - **Environment:** Isolated `cyberlab.local` lab
 
 ## Planned workflow
