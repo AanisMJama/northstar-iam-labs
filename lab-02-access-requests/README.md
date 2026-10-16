@@ -36,4 +36,10 @@ Process an access request with approval, grant only the required access through 
 
 ## Evidence
 
-Portfolio screenshots will be added to this lab folder.
+**Read access:** Samira opened the Finance share and viewed the test file.
+
+![Finance share read access](FINANCE.png)
+
+**Write restriction:** Windows denied the attempt to create a file.
+
+![Finance file creation denied](FINANCE1.png)
