@@ -27,16 +27,12 @@ This is a fictional, isolated lab. No Union or production tenant was used.
 ## Steps performed
 
 1. Created **Northstar - Workstation Baseline** in Group Policy Management.
-2. Configured:
-
-   `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options > Interactive logon: Machine inactivity limit`
-
-3. Set the value to **600 seconds**.
-4. Linked the GPO to `CyberLab\WORKSTATIONS`.
-5. Placed `WIN11-CLIENT02` in the target OU.
-6. Refreshed policy with `gpupdate /force`.
-7. Checked computer policy results with `gpresult /r /scope computer`.
-8. Opened Local Security Policy on `WIN11-CLIENT02` and confirmed the setting showed **600 seconds**.
+2. Configured **Interactive logon: Machine inactivity limit** to **600 seconds** under Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options.
+3. Linked the GPO to `CyberLab\WORKSTATIONS`.
+4. Placed `WIN11-CLIENT02` in the target OU.
+5. Refreshed policy with `gpupdate /force`.
+6. Checked computer policy results with `gpresult /r /scope computer`.
+7. Opened Local Security Policy on `WIN11-CLIENT02` and confirmed the setting showed **600 seconds**.
 
 ## Results
 
@@ -50,11 +46,17 @@ An idle-lock test was not used as proof because the virtual machine may already 
 
 ## Evidence
 
-Screenshots to add to this folder:
+### 1. GPO setting
 
-- GPO setting showing the 600-second value
-- `gpresult` showing the GPO was applied
-- Client Local Security Policy showing 600 seconds
+![GPO setting showing 600 seconds](lab04-01-gpo-setting-600-seconds.png.png)
+
+### 2. Applied Group Policy result
+
+![gpresult showing the workstation GPO applied](lab04-02-gpresult-applied.png)
+
+### 3. Client-side setting
+
+![Windows 11 client showing the 600-second setting](lab04-03-client-setting-600-seconds.png)
 
 ## Key learning
 
