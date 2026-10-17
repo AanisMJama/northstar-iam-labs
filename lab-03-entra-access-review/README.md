@@ -36,4 +36,10 @@ The tenant used is a personal Microsoft Entra ID Free test tenant. The business 
 
 ## Evidence
 
-Redacted screenshots of the group overview, members, and owners will be added here. Personal account details, email addresses, tenant identifiers, and object IDs must be hidden before publication.
+The screenshots below show the Entra groups list, Marketing group member, and group owner. Personal account details, email addresses, tenant identifiers, and object IDs have been hidden where applicable.
+
+![Entra groups list](GROUPS.png)
+
+![Marketing group member details (redacted)](02-marketing-members-redacted.png)
+
+![Marketing group owner details](03-marketing-owners.png.png)
