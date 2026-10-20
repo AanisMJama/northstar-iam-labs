@@ -1,7 +1,5 @@
 # Lab 6 — Microsoft Entra MFA and Conditional Access
-
-**Status:** Planned  
-**Environment:** Personal Azure trial tenant; fictional test account only
+Status: Completed — Entra ID Free tenant checks documented; MFA was satisfied by an existing token claim, and premium-only reporting was unavailable.
 
 ## Objective
 Practise checking MFA and Conditional Access settings, testing access with a dedicated account, and reviewing the resulting sign-in logs.
