@@ -24,6 +24,7 @@ A test user needs stronger sign-in protection. The administrator checks the tena
 
 ## Evidence
 Add redacted screenshots after completing the lab. Record any feature or licence limitation encountered.
+![Successful sign-in summary](./Lab6-SignIn-BasicInfo.png.png)
+![Authentication details](./Lab6-AuthenticationDetails.png..png)
+![Security Defaults result](./Lab6-SecurityDefaultsResult.png.png)
 
-## Results
-Pending lab execution.
