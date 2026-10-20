@@ -15,7 +15,9 @@ Review sign-in and audit logs for a fictional test user in my personal Azure tri
 - TAP sign-in did not complete, and Microsoft Authenticator was not registered.
 
 ## Evidence
-Screenshots will be added to the `evidence` folder after redaction.
+- [Sign-in log overview](Lab-Entra-SignInLogs-Overview1.png)
+- [AADSTS50126 failure details](Lab-Entra-50126-FailureDetails2.png)
+- [TAP creation audit event](Lab-Entra-AuditLog-TAP-Creation3.png)
 
 ## Security
 This lab used fictional accounts in my personal trial tenant. No TAP secret is included in this portfolio.
