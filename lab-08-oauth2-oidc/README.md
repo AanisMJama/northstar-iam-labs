@@ -19,8 +19,7 @@ Northstar is testing a fictional application. The analyst must review its sign-i
 
 ## Evidence
 
-Add redacted screenshots after completing the lab. Do not include passwords, client secrets, tokens, or personal or tenant details.
-
-## Results
-
-Pending lab execution.
+![App running](app-running.png)
+![Sign-in successful](sign-in-success.png)
+![Profile response](profile-response.png)
+![Sign-out confirmed](sign-out-confirmed.png)
