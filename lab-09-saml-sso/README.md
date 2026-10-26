@@ -15,4 +15,4 @@ Configure Microsoft Entra ID to provide SAML single sign-on to the Microsoft Ent
 The SAML sign-in completed successfully. The Toolkit home page displayed the signed-in test user.
 
 ## Evidence
-- `04-saml-sso-success.png` — redact the user’s email before uploading.
+![SAML SSO success](04-saml-sso-success.png)
