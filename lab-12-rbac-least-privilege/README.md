@@ -19,3 +19,4 @@ The test account received the selected role, and the assignment was then removed
 - Password Administrator role description.
 - Role assignment to the SOC Test User at directory scope.
 - Successful removal confirmation and empty assignments list.
+![Password Administrator role assignment removed](password-administrator-assignment-removed.png.png)
