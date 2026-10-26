@@ -22,4 +22,4 @@ Test LDAP connectivity to Active Directory and search the directory for person o
 LDAP connectivity and a directory search were successful. No directory objects were changed.
 
 ## Evidence
-- `ldap-search-results.png`
+![LDAP search results](ldap-search-results.png.png)
