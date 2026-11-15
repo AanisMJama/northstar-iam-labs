@@ -11,14 +11,11 @@ Fictional Microsoft IAM labs covering identity lifecycle, Active Directory, Entr
 5. [Entra sign-in audit](./lab-05-entra-sign-in-audit/)
 6. [MFA and Conditional Access](./lab-06-mfa-conditional-access/)
 7. [App registrations and service principals](./lab-07-app-registrations-service-principals/)
+8. [OAuth 2.0 and OpenID Connect (OIDC)](./lab-08-oauth2-oidc/)
+9. [SAML single sign-on](./lab-09-saml-sso/)
+10. [SCIM provisioning](./lab-10-scim-provisioning/)
+12. [RBAC and least privilege](./lab-12-rbac-least-privilege/)
 
 ## Upcoming labs
 
-| Lab | Topic | Practical focus |
-|---|---|---|
-| 8 | OAuth 2.0 and OpenID Connect (OIDC) | Understand authorization and sign-in flows using a safe test application |
-| 9 | SAML single sign-on | Explore identity provider and service provider roles |
-| 10 | LDAP | Practise directory queries and basic troubleshooting |
-| 11 | SCIM provisioning | Understand automated user provisioning and deprovisioning |
-| 12 | RBAC and least privilege | Review role assignments and apply the minimum access needed |
-
+11. [LDAP basics](./lab-11-ldap-basics/)
