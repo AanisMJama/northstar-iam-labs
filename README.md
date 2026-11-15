@@ -22,9 +22,3 @@ Fictional Microsoft IAM labs covering identity lifecycle, Active Directory, Entr
 | 11 | SCIM provisioning | Understand automated user provisioning and deprovisioning |
 | 12 | RBAC and least privilege | Review role assignments and apply the minimum access needed |
 
-## Lab safety
-
-- Use fictional accounts and test data.
-- Never publish passwords, secrets, private keys, access tokens or other credentials.
-- Redact personal, tenant and sensitive details from screenshots before publishing.
-- Record licence or feature limitations and describe only what was tested.
